@@ -1,0 +1,24 @@
+.questions__answer {
+	height: 0;
+	transition: height 0.5s ease-in-out;
+	box-sizing: content-box;
+	padding: 0 40px 20px 40px;
+	will-change: height;
+	@include screen(md) {
+		padding: 0 25px 25px 25px;
+	}
+	p {
+		transition: opacity 0.5s ease-in;
+	//	transition-delay: 0.3s;
+		font-size: 18px;
+		font-weight: 400;
+		margin: 0 0 30px 0;
+		margin-bottom: 0;
+		@include screen(lg) {
+			font-size: 16px;
+		}
+		@include screen(sm) {
+			font-size: 14px;
+		}
+	}
+}

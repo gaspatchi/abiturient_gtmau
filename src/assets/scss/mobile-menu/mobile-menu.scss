@@ -1,0 +1,41 @@
+.mobile-menu {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	top: 0;
+	right: 0;
+	visibility: hidden;
+	transition: 0.25s all cubic-bezier(0.22, 0.61, 0.36, 1);
+	z-index: 999;
+	background: white;
+	padding-top: 10px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+.mobile-menu_opend {
+	opacity: 1;
+	visibility: visible;
+	.promo__burger span {
+		transition: .3s;
+	}
+	.promo__burger span:nth-child(1){
+		transform: translateY(6px) rotate(45deg) scale(0.9);
+	}
+	.promo__burger span:nth-child(2){
+		opacity: 0;
+	}
+	.promo__burger span:nth-child(3){
+		transform: translateY(-6px) rotate(-45deg) scale(0.9);
+	}
+	.mobile-menu__link {
+		opacity: 1;
+		transform: initial;
+		
+	}
+	@for $i from 1 through 10 {
+		li:nth-child(#{$i}){.mobile-menu__link{transition-delay: 0.07s * ($i + 5)};}
+	}
+}

@@ -1,0 +1,19 @@
+.questions__button {
+	//position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-right: 40px;
+	//right: 40px;
+	opacity: 0.1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	svg {
+		flex-shrink: 0;
+		transform: rotate(-135deg);
+		transition: 0.5s;
+		will-change: transform;
+		width: 100%;
+		height: auto;
+	}
+}

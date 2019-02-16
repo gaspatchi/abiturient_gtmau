@@ -1,0 +1,55 @@
+$sm: 572px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+
+@mixin screen($media) {
+  @if $media == sm {
+    @media (max-width: $sm) { @content; }
+  }
+  @else if $media == md {
+    @media (max-width: $md) { @content; }
+  }
+  @else if $media == md-up {
+    @media (min-width: $md) and (max-width: $lg) { @content; }
+  }
+  @else if $media == md-up-to-infitiy {
+    @media (min-width: $md) { @content; }
+  }
+  @else if $media == lg {
+    @media (max-width: $lg) { @content; }
+  }
+  @else if $media == lg-up {
+    @media (min-width: $lg) and (max-width: $xl) { @content; }
+  }
+  @else if $media == xl {
+    @media (min-width: $xl) { @content; }
+  }
+  @else if $media == xl-down {
+    @media (max-width: $xl) { @content; }
+  }
+}
+
+// sm            <=>------------------
+// md            <===>----------------
+// lg            <=======>------------
+// md up         ----<===>------------
+// md up to inf  ----<===========-----
+// lg up         --------<===>--------
+// xl            ------------<==>-----
+// xl down       <==============>-----
+
+// max container <-------1344px------>
+
+$wayFix: "";
+
+@mixin bg-img($way) {
+  background-image: url($wayFix+$way)
+}
+
+@mixin bg-img-important($way) {
+  background-image: url($wayFix+$way);
+}
+
+// example
+// @include bg-img(way);

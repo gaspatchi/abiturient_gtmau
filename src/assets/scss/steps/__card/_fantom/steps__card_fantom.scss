@@ -1,0 +1,14 @@
+.steps__card_fantom {
+	position: absolute;
+	background-color: #dadada;
+	z-index: 5;
+	width: 100%;
+	bottom: -25px;
+	left: -20px;
+	@include screen(sm) {
+		bottom: -15px;
+		left: -7.5px;
+		background-color: #f1f1f1;
+		transform: scale(0.90);
+	}
+}

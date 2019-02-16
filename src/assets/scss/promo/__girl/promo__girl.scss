@@ -1,0 +1,22 @@
+.promo__girl {
+	position: absolute;
+	pointer-events: none;
+	height: 100%;
+	width: 100%;
+	bottom: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	background-image: url(~@/assets/img/girl.png);
+	background-position: 85% bottom;
+	background-size: 35% auto;
+	@include screen(lg) {
+		background-position: 100% bottom;
+	}
+	@include screen(md) {
+		background-position: 90% bottom;
+	}
+	@include screen(sm) {
+		background-size: 190px auto;
+		background-position: 100% bottom;
+	}
+}

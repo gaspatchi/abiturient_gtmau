@@ -1,0 +1,24 @@
+.professions__slider-wrapper {
+	width: 100%;
+	padding: 20px;
+	@include screen(lg){
+		padding: 20px 0;
+	}
+	
+	
+	&::before {
+		content: "";
+		height: 220px;
+		width: 100%;
+		position: absolute;
+		overflow: hidden;
+		display: block;
+		z-index: 5;
+		left: -100%;
+		overflow: hidden;
+		background: rgb(241, 241, 241);
+		@include screen (lg){
+			all: unset;
+		}
+	}
+}

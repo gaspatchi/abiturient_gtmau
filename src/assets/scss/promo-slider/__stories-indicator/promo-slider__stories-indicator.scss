@@ -1,0 +1,19 @@
+.promo-slider__stories-indicator {
+	padding: 10px 20px 0 20px;
+	position: relative;
+	z-index: 1;
+	span {
+		display: inline-block;
+		margin-right: 5px;
+		width: 22px;
+		height: 5px;
+		border-radius: 10px;
+		background-color:  rgba(255, 255, 255, 0.5);
+		&:first-child {
+			background-color: #ffffff;
+		}
+		&:nth-child(n + 5) {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,18 @@
+.about__title {
+	font-size: 40px;
+	text-align: center;
+	font-weight: 600;
+	padding-top: 70px;
+	color: black;
+	@include screen(xl-down) {
+		font-size: 35px;
+		padding-top: 50px;
+	}
+	@include screen(md) {
+		padding-top: 20px;
+		font-size: 25px;
+	}
+	@include screen(sm){
+		
+	}
+}

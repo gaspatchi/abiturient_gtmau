@@ -1,0 +1,20 @@
+.feedback_contact {
+	display: flex;
+	align-items: center;
+	padding: 15px 40px;
+	font-size: 16px;
+	font-weight: 600;
+	&::before {
+		content: "";
+		display: block;
+		width: 35px;
+		height: 35px;
+		background-size: 100%;
+		background-position: right;
+		background-repeat: no-repeat;
+		margin-right: 15px;
+	}
+	@include screen(sm) {
+		padding: 5px 20px;
+	}
+}

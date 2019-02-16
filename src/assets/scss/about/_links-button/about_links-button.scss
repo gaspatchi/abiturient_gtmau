@@ -1,0 +1,26 @@
+.about_links-button {
+	margin: 0 10px;
+	padding: 10px 25px;
+	color: black;
+	font-weight: 400;
+
+	&:hover {
+		background-color: #f1f1f1;
+		box-shadow: 0px 2px 10px 2px #00000009;
+	}
+	@include screen(lg) {
+		padding: 10px 25px;
+	}
+	@include screen(sm) {
+		
+		font-size: 14px;
+		padding: 8px 18px;
+		margin: 7px;
+	}
+	&:not(.about_active-button){
+		@include screen(sm) {
+			border: 1px solid rgb(245, 245, 245);
+		}
+	}
+}
+

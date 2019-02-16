@@ -1,0 +1,10 @@
+.promo-welcome {
+	height: 60%;
+	padding-top: 6%;
+	@include screen(md) {
+		padding-top: 100px;
+	}
+	@include screen(sm) {
+		padding-top: 10px;
+	}
+}

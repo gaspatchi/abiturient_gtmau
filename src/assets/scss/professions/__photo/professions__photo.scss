@@ -1,0 +1,22 @@
+.professions__photo {
+    background-color: rgba(0, 0, 0, 0.281);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: .8s all;
+    @include screen(lg-up){
+        width: 100%;
+        max-width: initial;
+    }
+    @include screen(xl){
+        width: 100%;
+        max-width: initial;
+    }
+    @include screen(lg){
+        border-radius: 15px 15px 0 0;
+    } 
+    @include screen(sm) {
+        margin: 0 15px;
+        min-height: 300px;
+    }
+}

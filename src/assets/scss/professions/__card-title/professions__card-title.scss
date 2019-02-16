@@ -1,0 +1,9 @@
+.professions__card-title{
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 1.2em;
+	margin-bottom: 15px;
+	@include screen(sm){
+		font-size: 18px;
+	}
+}

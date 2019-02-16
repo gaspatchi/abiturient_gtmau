@@ -1,0 +1,48 @@
+.promo-slider__preloader {
+    display: flex;
+    div {
+        padding: 20px 10px;
+        animation: blink 2s infinite;
+        transition: 2s;
+        &:first-child {
+            margin-left: 10px;
+        }
+        &:last-child {
+            margin-right: 10px;
+        }
+        &::before {
+            content: '';
+            display: block;
+            height: 180px;
+            width: 320px;
+            border-radius: 10px;
+            background: rgb(255, 255, 255);
+            box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.05), 0 5px 10px rgba(0, 0, 0, 0.1);
+            @include screen(md) {
+                width: 270px;
+                height: 150px;
+            }
+            @include screen(sm) {
+                width: 240px;
+                height: 140px;
+            }
+        }
+    }
+    @keyframes blink {
+        0% {
+            filter: opacity(1);
+        }
+        50% {
+            filter: opacity(0.5);
+        }
+        100% {
+            filter: opacity(1);
+        }
+    }
+    @for $i from 1 through 4 {
+        div:nth-child(#{$i}) {
+            opacity: 1.25 - (0.25 * $i);
+            animation-delay: $i * 0.25s;
+        }
+    }
+}

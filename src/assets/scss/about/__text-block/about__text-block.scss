@@ -1,0 +1,58 @@
+.about__text-block {
+	margin: 40px 0;
+	color: white;
+	background-image: url(~@/assets/img/blue_gradient.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: scale(1.25);
+	position: relative;
+	z-index: 100;
+	padding: 30px 40px;
+	border-radius: 0px 15px;
+	box-shadow: 2px 2px 30px 5px rgba(0, 0, 0, 0.247);
+	h1 {
+		font-size: 25px;
+		font-weight: 700;
+		
+		@include screen(lg){
+			font-size: 18px;
+		}
+		@include screen(md){
+			font-size: 22px;
+		}
+	}
+	p {
+		line-height: 1.3em;
+		font-size: 14px;
+		@include screen(lg){
+			font-size: 12px;
+		}
+		@include screen(md){
+			font-size: 16px;
+			margin-bottom: 0;
+		}
+		
+	}
+	
+	@include screen(lg-up){
+		transform: scale(1.25) translateX(10%);
+	}
+	@include screen(lg){
+		padding: 25px;
+		transform: scale(1.25) translateX(10%);
+	}
+	
+	@include screen(xl){
+		transform: scale(1.25) translateX(5%);
+	}
+	@include screen(md){
+		transform: none;
+		padding: 40px 30px;
+		// background: initial;
+		// background: rgb(255, 255, 255);
+		box-shadow: 0 5px 30px rgba(0, 0, 0, 0.2);
+		border-radius: 0px 25px;
+		// border-radius: initial;
+		// color: black;
+	}
+}

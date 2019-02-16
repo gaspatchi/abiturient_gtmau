@@ -1,0 +1,10 @@
+.feedback_button {
+	width: 100%;
+	text-align: center;
+	background-color: #274a9c;
+	color: white;
+	padding: 7px 15px;
+	&:hover {
+		background-color: #203e83;
+	}
+}

@@ -1,0 +1,124 @@
+@import "./helpers/grid.scss";
+@import "./helpers/typography.scss";
+@import "./helpers/mixins.scss";
+@import "./helpers/shortcuts.scss";
+@import "./promo/promo.scss";
+@import "./promo/__nabar/promo__navbar.scss";
+
+@import "./promo/__menu/promo__menu.scss";
+@import "./promo/__burger/promo__burger.scss";
+@import "./promo/__girl/promo__girl.scss";
+@import "./promo/__colledge_name/promo__colledge_name.scss";
+@import "./button/button.scss";
+@import "./button/_green/button_green.scss";
+@import "./button/_blue/button_blue.scss";
+@import "./button/_shadow/button_shadow.scss";
+
+@import "./links/__group/links__group.scss";
+@import "./links/__item/links__item.scss";
+@import "./links/__link/links__link.scss";
+@import "./links/links.scss";
+
+@import "./promo-welcome/__text/promo-welcome__text.scss";
+@import "./promo-welcome/promo-welcome.scss";
+@import "./promo-welcome/__buttons/promo-welcome__buttons.scss";
+@import "./promo-welcome/_button/promo-welcome_button.scss";
+
+@import "./promo-slider/promo-slider.scss";
+@import "./promo-slider/_open/promo-slider_open.scss";
+
+@import "./promo-slider/__wrapper/promo-slider__wrapper.scss";
+@import "./promo-slider/__container/promo-slider__container.scss";
+@import "./promo-slider/__button-open/promo-slider__button-open.scss";
+@import "./promo-slider/__button-close/promo-slider__button-close.scss";
+@import "./promo-slider/__slide-wrapper/promo-slider__slide-wrapper.scss";
+@import "./promo-slider/__slide/promo-slider__slide.scss";
+@import "./promo-slider/__stories-indicator/promo-slider__stories-indicator.scss";
+@import "./promo-slider/__text/promo-slider__text.scss";
+@import "./promo-slider/__text-wrapper/promo-slider__text-wrapper.scss";
+@import "./promo-slider/__preloader/promo-slider__preloader.scss";
+
+@import "./about/about.scss";
+@import "./about/__title/about__title.scss";
+@import "./about/__links/about__links.scss";
+@import "./about/_links-button/about_links-button.scss";
+@import "./about/_active-button/about_active-button.scss";
+@import "./about/__content/about__content.scss";
+@import "./about/__text-block/about__text-block.scss";
+@import "./about/__media-block/about__media-block.scss";
+
+@import "./professions/professions.scss";
+@import "./professions/__title-wrapper/professions__title-wrapper.scss";
+@import "./professions/__title-buble/professions__title-buble.scss";
+@import "./professions/__photo/professions__photo.scss";
+@import "./professions/__content/professions__content.scss";
+@import "./professions/__card/professions__card.scss";
+@import "./professions/__card-title/professions__card-title.scss";
+@import "./professions/__card-text/professions__card-text.scss";
+@import "./professions/__card-image/professions__card-image.scss";
+
+@import "./professions/__slider-wrapper/professions__slider-wrapper.scss";
+@import "./professions/__slider/professions__slider.scss";
+@import "./professions/__slider/_overflow_visible/professions__slider_overflow_visible.scss";
+@import "./professions/__slide-wrapper/professions__slide-wrapper.scss";
+@import "./professions/__slide/professions__slide.scss";
+@import "./professions/__slide-title/professions__slide-title.scss";
+@import "./professions/__slide-icon/professions__slide-icon.scss";
+@import "./professions/__card-info/professions__card-info.scss";
+@import "./professions/_card-button/professions_card-button.scss";
+@import "./professions/__range-input/professions__range-input.scss";
+@import "./professions/_slide-button/professions_slide-button.scss";
+
+@import "./questions/questions.scss";
+@import "./questions/__title/questions__title.scss";
+@import "./questions/__text/questions__text.scss";
+@import "./questions/__question/questions__question.scss";
+@import "./questions/__question-title/questions__question-title.scss";
+@import "./questions/__answer/questions__answer.scss";
+@import "./questions/__button/questions__button.scss";
+
+@import "./feedback/feedback.scss";
+@import "./feedback/feedback__title/feedback__title.scss";
+@import "./feedback/feedback__contacts/feedback__contacts.scss";
+@import "./feedback/feedback__contact/feedback_contact.scss";
+@import "./feedback/feedback__contact/_mail/feedback__contact_mail.scss";
+@import "./feedback/feedback__contact/_phone/feedback__contact_phone.scss";
+@import "./feedback/feedback__contact/_address/feedback__contact_address.scss";
+
+@import "./feedback/feedback__form/feedback__form.scss";
+@import "./feedback/feedback__map/feedback__map.scss";
+@import "./feedback/feedback__message/feedback__message.scss";
+@import "./feedback/feedback_button/feedback_button.scss";
+
+@import "./steps/steps.scss";
+@import "./steps/__title/steps__title.scss";
+@import "./steps/__card-content/steps__card-content.scss";
+@import "./steps/__card-wrapper/steps__card-wrapper.scss";
+@import "./steps/__card/steps__card.scss";
+@import "./steps/__card/_fantom/steps__card_fantom.scss";
+@import "./steps/__card-title/steps__card-title.scss";
+
+@import "./steps/__step/steps__step.scss";
+@import "./steps/__step-pic/steps__step-pic.scss";
+@import "./steps/__step-title/steps__step-title.scss";
+@import "./steps/__steps-wrapper/steps__steps-wrapper.scss";
+@import "./steps/__step-description/steps__step-description.scss";
+@import "./steps/__step-line/steps__step-line.scss";
+@import "./steps/__step/_close/steps__step_close.scss";
+@import "./steps/_step-button/steps_step-button.scss";
+
+@import "./mobile-menu/mobile-menu.scss";
+@import "./mobile-menu/__container/mobile-menu__container.scss";
+@import "./mobile-menu/__header/mobile-menu__header.scss";
+@import "./mobile-menu/__close-button/mobile-menu__close-button.scss";
+@import "./mobile-menu/__title/mobile-menu__title.scss";
+@import "./mobile-menu/__link/mobile-menu__link.scss";
+@import "./mobile-menu/__links/mobile-menu__links.scss";
+@import "./mobile-menu/__link-image/mobile-menu__link-image.scss";
+
+@import "./stories/stories.scss";
+@import "./stories/storiesSliderContent.scss";
+
+@import "./feedback-form/feedback-form.scss";
+
+@import "./loader/loader.scss";

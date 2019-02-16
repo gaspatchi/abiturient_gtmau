@@ -1,0 +1,13 @@
+.steps__step {
+	display: flex;
+	min-height: 120px;
+	@include screen(md){
+		min-height: 90px;
+	}
+	&:last-child .steps__step-pic::after {
+		content: none;
+	}
+	&:last-child .steps__step-line::after {
+		content: none;
+	}
+}

@@ -1,0 +1,15 @@
+.steps__card-content {
+    padding: 0 30px;
+    a {
+        display: block;
+        position: relative;
+        margin-left: 20px;
+        &:before {
+            content: url(~@/assets/img/file-icon.svg);
+            display: inline-block;
+            position: absolute;
+            left: -20px;
+            top: 2px
+        }
+    }
+}

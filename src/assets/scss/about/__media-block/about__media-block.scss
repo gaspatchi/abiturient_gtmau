@@ -1,0 +1,11 @@
+.about__media-block {
+	height: 515px;
+	border-radius: 17px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	box-shadow: 4px 5px 25px 2px rgba(0, 0, 0, 0.247);
+	@include screen(md) {
+		height: initial;
+		padding-top: 140%;
+	}
+}

@@ -1,0 +1,26 @@
+.questions__question {
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+	border-radius: 15px;
+	margin-bottom: 40px;
+	box-shadow: 0 12px 35px 5px rgba(0, 96, 241, 0.199);
+	cursor: pointer;
+	&:hover {
+		box-shadow: 0 12px 35px 5px rgba(0, 96, 241, 0.199);
+	}
+}
+.questions__question_closed {
+	box-shadow: 0 10px 30px 5px rgba(0, 0, 0, 0.05);
+	.questions__answer {
+		overflow: hidden;
+		height: 0;
+		padding-bottom: 0;
+		p {
+			opacity: 0;
+		}
+	}
+	.questions__button svg {
+		transform: rotate(0);
+	}
+}

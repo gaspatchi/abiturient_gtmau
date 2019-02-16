@@ -1,0 +1,19 @@
+.steps__title {
+	padding: 50px 35px;
+	@include screen(lg){
+		padding: 30px 0 10px 0;
+	}
+	@include screen(sm){
+		padding: 30px 0 0 0;
+	}
+	h2 {
+		margin: 0;
+		font-weight: 700;
+		@include screen(lg) {
+			font-size: 27px;
+		}
+		@include screen(md) {
+			font-size: 25px;
+		}
+	}
+}

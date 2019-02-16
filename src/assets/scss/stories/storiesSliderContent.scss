@@ -1,0 +1,111 @@
+.story-content__progress-bar {
+	position: absolute;
+	padding: 10px 15px;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 10px 10px 0 0;
+}
+.story-content__progress_wrapper {
+	background-color: #ffffff50;
+	border-radius: 20px;
+}
+.story-content__progress {
+	height: 3px;
+	border-radius: 20px;
+	background-color: #ffffff;
+	transition: all 0.3s ease-in-out;
+	@include screen(sm) {
+		height: 2px;
+	}
+}
+
+.fade-slide-enter-active,
+.fade-slide-leave-active {
+	transition: opacity 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+.fade-slide-enter,
+.fade-slide-leave-to {
+	opacity: 0.4;
+}
+
+.story-content__wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 10px;
+	background: black;
+}
+.story-content__image {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow: hidden;
+	border-radius: 10px;
+}
+
+.story-content__button-next,
+.story-content__button-prev {
+	z-index: 99;
+	display: none;
+	position: absolute;
+	height: 100%;
+	top: 0;
+	opacity: 0.3;
+	cursor: pointer;
+	transition: 0.3s opacity;
+	&::before {
+		display: block;
+		content: "";
+		width: 40px;
+		height: 40px;
+		background-position: center;
+		background-size: 80%;
+		background-repeat: no-repeat;
+		filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.7));
+		@include screen(sm) {
+			width: 30px;
+			height: 30px;
+		}
+	}
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.story-content__button-next {
+	width: 70%;
+	right: 0;
+	&::before {
+		margin: auto 0 auto auto;
+		background-image: url(~@/assets/img/stories-arrow.svg);
+	}
+}
+
+.story-content__button-prev {
+	width: 30%;
+	left: 0;
+	&::before {
+		transform: rotate(180deg);
+		filter: drop-shadow(0 -1px 2px rgba(0, 0, 0, 0.7));
+		margin: auto auto auto 0;
+		background-image: url(~@/assets/img/stories-arrow.svg);
+	}
+}
+.story-content__button-close {
+	z-index: 100;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	background-position: center;
+	background-size: 50%;
+	right: 0;
+	background-repeat: no-repeat;
+	top: 25px;
+	filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.3));
+	background-image: url(~@/assets/img/stories-close.svg);
+}

@@ -1,0 +1,11 @@
+.steps_step-button{
+	padding: 5px 20px;
+	color: white;
+	background-color: #0051a6;
+	&:hover{
+		background-color: #00448d;
+	}
+	@include screen(sm) {
+		padding: 4px 18px;
+	}
+}

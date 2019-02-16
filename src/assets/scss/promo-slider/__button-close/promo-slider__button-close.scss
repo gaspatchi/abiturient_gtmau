@@ -1,0 +1,19 @@
+.promo-slider__button-close {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: -25%;
+	left: 90%;
+	background-color: rgba(255, 255, 255, 0.3);
+	background-image: url(~@/assets/img/slider-arrow-close.svg);
+	background-position: center;
+	background-size: 40%;
+	background-repeat: no-repeat; 
+	border-radius: 50%;
+	
+	cursor: pointer;
+	&:hover {
+		transition: 0.3s cubic-bezier(0, 0.8, 0.62, 2.39) !important;
+		transform: scale(1.15) !important;
+	}
+}

@@ -1,0 +1,11 @@
+.links__group {
+	list-style: none;
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	height: 60px;
+	padding-left: 0;
+	li:nth-child(1){
+		margin-left: 0;
+	}
+}

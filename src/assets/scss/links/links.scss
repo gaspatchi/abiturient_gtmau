@@ -1,0 +1,6 @@
+.links {
+    
+    @include screen(md){
+        display: none;
+    }
+}

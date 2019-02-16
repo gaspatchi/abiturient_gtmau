@@ -1,0 +1,19 @@
+.promo-slider__slide-wrapper {
+	width: 320px;
+	height: 180px;
+	padding: 20px 10px;
+	&:first-child{
+		margin-left: 10px;
+	}
+	&:last-child{
+		margin-right: 10px;
+	}
+	@include screen(md){
+		width: 270px;
+		height: 150px;
+	}
+	@include screen(sm){
+		width: 240px;
+		height: 140px;
+	}
+}

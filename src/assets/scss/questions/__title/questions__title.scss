@@ -1,0 +1,16 @@
+.questions__title {
+	padding-top: 70px;
+	width: 100%;
+	margin-bottom: 30px;
+	h2 {
+		font-size: 40px;
+		text-align: center;
+		font-weight: 600;
+		@include screen(lg) {
+			font-size: 35px;
+		}
+		@include screen(sm) {
+			font-size: 25px;
+		}
+	}
+}

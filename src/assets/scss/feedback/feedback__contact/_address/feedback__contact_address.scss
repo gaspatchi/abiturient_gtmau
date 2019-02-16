@@ -1,0 +1,5 @@
+.feedback__contact_address{
+    &::before{
+        background-image: url(~@/assets/img/placeholder_icon.svg);
+    }
+}

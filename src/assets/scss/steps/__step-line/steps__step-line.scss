@@ -1,0 +1,17 @@
+.steps__step-line {
+	display: flex;
+	flex-direction: column;
+	padding-right: 30px;
+	position: relative;
+	@include screen(lg){
+		padding-right: 15px;
+	}
+	&::after {
+		content: "";
+		height: 100%;
+		display: block;
+		border-right: 2px dotted black;
+		margin: 10px auto;
+		opacity: .25;
+	}
+}

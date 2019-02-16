@@ -1,0 +1,5 @@
+.steps__steps-wrapper {
+    @include screen(lg) {
+        padding: 30px 0;
+    }
+}

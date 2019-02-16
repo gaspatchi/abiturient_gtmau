@@ -1,0 +1,12 @@
+.about__content {
+	padding: 20px 0 100px 0;
+	@include screen(md){
+		padding: 0 15px;
+	}
+	& > .row {
+		justify-content: center;
+	}
+	& > .row .row {
+		align-items: center;
+	}
+}

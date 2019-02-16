@@ -1,0 +1,9 @@
+.about {
+	background-color: white;
+	@include screen(md){
+		padding-bottom: 100px;
+	}
+	.row {
+		justify-content: center;
+	}
+}

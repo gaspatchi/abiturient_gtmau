@@ -1,0 +1,16 @@
+.professions_slide-button {
+	background-color: blue;
+	padding: 5px 13px;
+	color: white;
+	font-size: 17px;
+	cursor: pointer;
+	&:hover {
+		background-color: grey;
+	}
+	&_open {
+		background-color: #45ae8a;
+	}
+	&_close {
+		background-color: #0f3e8b;
+	}
+}

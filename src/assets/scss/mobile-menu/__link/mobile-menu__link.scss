@@ -1,0 +1,11 @@
+.mobile-menu__link{
+	display: flex;
+	align-items: center;
+	// padding: 0 35px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 50px;
+    transition: 0.7s;
+    transform: translateX(-40px);
+    opacity: 0;
+}

@@ -1,0 +1,31 @@
+.steps__step-pic{
+	background-color: #0051a6;
+	width: 75px;
+	height: 75px;
+	border-radius: 50px;
+	background-image: url(~@/assets/img/docs.svg);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
+	flex-shrink: 0;
+	display: flex;
+	filter: drop-shadow(0px 10px 25px rgba(0, 0, 0, 0.13));
+	@include screen(lg){
+		width: 60px;
+		height: 60px;
+	}
+	@include screen(sm){
+		width: 50px;
+		height: 50px;
+	}
+	cursor: pointer;
+	&::after{
+		content: "";
+		height: 13px;
+		width: 13px;
+		background-color: #0fad8a;
+		margin: auto auto -7px auto;
+		border-radius: 50px;
+		border: 2px solid white;
+	}
+}

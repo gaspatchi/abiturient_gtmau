@@ -1,0 +1,13 @@
+.steps__step-description {
+	padding-bottom: 30px;
+	margin-top: 20px;
+	@include screen(lg){
+		padding-bottom: 15px;
+	}
+	p{
+		@include screen(sm) {
+			font-size: 14px;
+		}
+	}
+}
+

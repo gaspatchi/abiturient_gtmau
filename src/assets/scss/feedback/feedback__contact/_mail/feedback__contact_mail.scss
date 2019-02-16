@@ -1,0 +1,5 @@
+.feedback__contact_mail{
+    &::before{
+        background-image: url(~@/assets/img/msg_icon.svg);
+    }
+}

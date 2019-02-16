@@ -1,0 +1,9 @@
+.about__links {
+	display: flex;
+	justify-content: center;
+	padding: 30px 0;
+	flex-wrap: wrap;
+	@include screen(md) {
+		padding-bottom: 0;
+	}
+}

@@ -1,0 +1,25 @@
+.mobile-menu__link-image {
+	margin: 0 10px 0 12px;
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	background-size: 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+	opacity: 0.2;	
+}
+$icons: 
+	home_m_menu
+	info_m_menu
+	graduation_m_menu
+	quetion_m_menu
+	telephone_m_menu;
+
+@each $icon in $icons {
+	$i: index($icons, $icon);
+	.mobile-menu__links li:nth-child(#{$i}) .mobile-menu__link-image{
+		background-image: url(~@/assets/img/#{$icon}.svg);
+	}
+}
+
+

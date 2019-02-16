@@ -1,0 +1,22 @@
+.promo {
+	height: 90vh;
+	max-height: 800px;
+	min-height: 660px;
+	position: relative;
+	background-image: url(~@/assets/img/blue_gradient.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	> .container {
+		position: relative;
+		height: 100%;
+		@include screen(md) {
+			height: calc(100vh - 75px);
+			max-height: 650px;
+			min-height: 570px;
+		}
+	}
+	@include screen(md) {
+		height:  initial;
+		max-height:  initial;
+	}
+}

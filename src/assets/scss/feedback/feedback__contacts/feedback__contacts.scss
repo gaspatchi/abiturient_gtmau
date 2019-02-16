@@ -1,0 +1,13 @@
+.feedback__contacts {
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0, 0.15);
+	border-radius: 15px;
+	color: white;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+	padding: 15px 0px;
+	@include screen(sm) {
+		justify-content: start;
+	}
+}

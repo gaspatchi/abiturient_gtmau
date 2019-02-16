@@ -1,0 +1,28 @@
+.professions__range-input[type="range"] {
+	border-radius: 5px;
+	-webkit-appearance: none;
+	width: 100%;
+	height: 5px;
+	background: #d2d2d2;
+	margin: auto;
+	outline: none;
+	border: 0;
+}
+
+.professions__range-input[type="range"]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background: #434343;
+	position: relative;
+	background: white;
+	z-index: 3;
+	cursor: pointer;
+	box-shadow: 0 3px 10px 2px #1d1e2220;
+	background-image: url(~@/assets/img/arrows.svg);
+	background-size: 45%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border: 0;
+}

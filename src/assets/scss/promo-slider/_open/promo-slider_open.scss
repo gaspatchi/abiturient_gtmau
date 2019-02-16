@@ -1,0 +1,14 @@
+.promo-slider.promo-slider_open {
+	transform: translate(0%, -10%) scale(1);
+	.promo-slider__button-open{
+		opacity: 0;
+		visibility: hidden;
+	}
+	.promo-slider__button-close {
+		opacity: 1;	
+		transform: translateY(0) scale(1);
+	}
+	.promo-slider__container {
+		overflow: visible;
+	}
+}

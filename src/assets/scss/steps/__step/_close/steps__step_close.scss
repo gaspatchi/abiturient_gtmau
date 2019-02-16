@@ -1,0 +1,12 @@
+.steps__step_close {
+	.steps__step-pic {
+		background-color: white;
+		background-blend-mode: exclusion;
+		&::after {
+			content: none;
+		}
+	}
+	.steps__step-description {
+		display: none;
+	}
+}

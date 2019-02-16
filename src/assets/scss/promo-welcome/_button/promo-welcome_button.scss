@@ -1,0 +1,9 @@
+.promo-welcome_button {
+	margin: 0px 15px 15px 0px;
+	font-size: 18px;
+	padding: 6px 15px;
+	@include screen(lg) {
+		font-size: 16px;
+		padding: 4px 13px;
+	}
+}

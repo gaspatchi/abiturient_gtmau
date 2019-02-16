@@ -1,0 +1,29 @@
+.promo-welcome__text {
+	color: white;
+
+	h1 {
+		font-size: 45px;
+		font-weight: 700;
+		margin-bottom: 15px;
+		@include screen(lg) {
+			font-size: 35px;
+		}
+		@include screen(md) {
+			font-size: 24px;
+		}
+	}
+	p {
+		max-width: 50%;
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 20px;
+		@include screen(lg) {
+			font-size: 20px;
+			max-width: 75%;
+		}
+		@include screen(md) {
+			font-size: 16px;
+			max-width: 90%;
+		}
+	}
+}

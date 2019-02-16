@@ -1,0 +1,14 @@
+.button {
+	display: inline-block;
+	background-color: white;
+	color: #084c9e;
+	padding: 5px 10px;
+	border-radius: 8px;
+	font-weight: 600;
+	transition: 0.2s all ease-in-out;
+	cursor: pointer;
+	user-select: none;
+	&:hover {
+		background-color: rgb(219, 219, 219);
+	}
+}

@@ -1,0 +1,31 @@
+.professions__card-text{
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 1.3em;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding-right: 2px;
+	@include screen(lg){
+		margin-bottom: 100px;
+	}
+	@include screen(sm) {
+		margin-bottom: 100px;
+		font-size: 16px;
+		line-height: 1.4em;
+	}
+
+	-ms-overflow-style: none;
+	overflow: -moz-scrollbars-none;
+	&::-webkit-scrollbar {
+		width: 7px;
+		margin-left: 5px;
+	}
+	&::-webkit-scrollbar-track {
+		background: rgba(120, 120, 120,  0.1);
+		border-radius: 7px;
+	}
+	&::-webkit-scrollbar-thumb {
+		background: rgba(120, 120, 120, 0.2);
+    	border-radius: 7px;
+	}
+}

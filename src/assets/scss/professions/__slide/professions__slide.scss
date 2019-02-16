@@ -1,0 +1,18 @@
+.professions__slide {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: flex-start;
+	padding: 15px 15px 15px 60px;
+	overflow: hidden;
+	background-color: white;
+	height: 120px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 5px 15px;
+	cursor: pointer;
+	&:hover {
+		transform: scale(1.05) !important;
+		transition: 0.2s !important;
+	}
+}
